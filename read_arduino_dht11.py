@@ -4,7 +4,7 @@ from temperature import Temperature
 from stack import CircularStack
 
 # Define serial connection parameters
-COM_PORT = 'COM2'  # Update based on your system
+COM_PORT = '/dev/cu.usbmodem11101'  # Update based on your system
 BAUD_RATE = 9600
 
 
@@ -31,7 +31,6 @@ def read_from_arduino(serial_connection, stack):
 
     except Exception as e:
         print(f"Error reading from Arduino: {e}")
-
 
 def main():
     # Initialize serial connection
