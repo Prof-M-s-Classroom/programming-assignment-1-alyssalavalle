@@ -4,7 +4,7 @@ from temperature import Temperature
 from stack import CircularStack
 
 # Define serial connection parameters
-COM_PORT = '/dev/cu.usbmodem11101'  # Update based on your system
+COM_PORT = '/dev/cu.usbmodem1101'  # Update based on your system
 BAUD_RATE = 9600
 
 

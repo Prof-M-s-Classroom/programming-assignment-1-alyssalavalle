@@ -12,4 +12,4 @@ class Temperature:
 
     def __str__(self):
         """Return a formatted string representation of the Temperature object."""
-        return f"Temperature: {self.temperature}°C, Humidity: {self.humidity}%, Timestamp: {self.timestamp.strftime('%Y-%m-%d %H:%M:%S')}"
+        return f"Time: {self.timestamp.strftime('%Y-%m-%d %H:%M:%S')} - Temperature: {self.temperature}°C, Humidity: {self.humidity}%"
